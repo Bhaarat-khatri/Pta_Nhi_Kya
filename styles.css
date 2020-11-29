@@ -77,8 +77,13 @@
 
 
 /* Slider */
+.carousel{
+  text-align: right;
+}
+
 #content_slider{
-  margin: 10%;
+  margin-top: 10%;
+  margin-left: 5%;
   text-align: center;
 }
 
@@ -96,21 +101,61 @@
   height: 20px;
   background-color:#16697a ;
 }
-.slider_text{
+.slider_heading{
   text-align: right;
-  color: #28abb9;
+  color: #16697a;
   font-size: 1.25rem;
   padding-top: 10%;
 }
 
+.slider_text{
+  text-align: right;
+  padding-top: 10%;
+  color: #28abb9;
+}
+
+.slider-link{
+  color: #16697a;
+}
 
 
+
+.input-name{
+  text-align: center;
+  height: 50px;
+
+}
+.form-name{
+  height: 40px;
+  width: 40%;
+  border: 1px solid;
+  border-radius: .25rem;
+}
+.text-name{
+  height: 40px;
+  width: 81%;
+}
+.form-control{
+  width: 81%;
+  display: inline;
+}
+.dropdown{
+  width: 77.5%;
+  height: 30px;
+  border: 0px solid;
+  padding: 0px;
+}
 
  @media(max-width: 1000px){ 
+  .header_img{
+    width: 100%;
+  }
+
   .header_text{
     text-align: center;
-    justify-content: center;
+    
     font-size: 3.5rem;
     padding: 4% 6%;
   }
+  
 } 

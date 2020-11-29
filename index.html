@@ -86,8 +86,8 @@
     <section id = "content_slider">
       <div class="fluid-container">
         <div class="row">
-          <div class="col-lg-6 col-12">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-slide" data-ride="carousel" data-interval="4000">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -101,7 +101,9 @@
                       <img class="slider_image" src="Images/psychology.png" alt="Logo">
                     </div>
                     <div class="col-5">
-                      <h3 class="slider_text">Psychology</h3>
+                      <h3 class="slider_heading">Psychology</h3>
+                      <p class="slider_text"  >psychology is the science and art of understanding behaviour.</p>
+                      <a class="slider-link" href="">Know More</a>
                     </div>
                   </div>
                 </div>
@@ -111,7 +113,9 @@
                       <img class="slider_image" src="Images/men_hel.png" alt="Logo">
                     </div>
                     <div class="col-5">
-                      <h3 class="slider_text">Mental Health</h3>
+                      <h3 class="slider_heading">Mental Health</h3>
+                      <p class="slider_text">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,</p>
+                      <a class="slider-link" href="">Know More</a>
                     </div>
                   </div>
                 </div>
@@ -121,7 +125,9 @@
                       <img class="slider_image" src="Images/psy_ther.png" alt="Logo">
                     </div>
                     <div class="col-5">
-                      <h3 class="slider_text">Psychotherapy</h3>
+                      <h3 class="slider_heading">Psychotherapy</h3>
+                      <p class="slider_text">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,</p>
+                      <a class="slider-link" href="">Know More</a>
                     </div>
                   </div>
                 </div>
@@ -131,7 +137,9 @@
                       <img class="slider_image" src="Images/logo.jpg" alt="Logo">
                     </div>
                     <div class="col-5">
-                      <h3 class="slider_text">Pta nhi kya</h3>
+                      <h3 class="slider_heading">Pta nhi kya</h3>
+                      <p class="slider_text">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,</p>
+                      <a class="slider-link" href="">Know More</a>
                     </div>
                   </div>
                 </div>
@@ -146,11 +154,57 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 col-12">
-            <form action="/" method="POST">
-              
-            </form>
-          </div> 
+           <div class="col-lg-6 col-md-6 col-12">
+              <div class="form-container">
+                <h2>Want Counsling? Just Fill The Form.</h2>
+                <form action="/" method="post">
+                  <div class="input-name">
+                    
+                    <input type="text" placeholder="First Name" class="form-name" name="firstname" minlength="3"
+                      style="text-transform: capitalize;" required />
+                    <span class="last">
+                      
+                      <input type="text" placeholder="Last Name" class="form-name" name="lastname" minlength="3"
+                        style="text-transform: capitalize;" required />
+                    </span>
+                  </div>
+                  
+    
+                  <div class="input-name">
+                    <i class="fa fa-phone lock"></i>
+                    <input type="text" name="mobileno" placeholder="Mobile Number" class="text-name" maxlength="10"
+                      minlength="10" required />
+                  </div>
+    
+                  <div class="input-name ">
+    
+                    <input type="email" class="form-control" id="email"
+                        name="email" placeholder="Email Address (optional)" onkeyup="checkemail()"/>
+    
+                  </div>
+                  
+                  <div class="input-name">
+                    <select class="dropdown" name="cars" id="cars">
+                      <option value="volvo">Volvo</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
+
+                  </div>
+                  
+                  
+                  <div class="input-name">
+                    <input type="checkbox" id="cb1" class="chack-button" required />
+                    <label for="cb1" class="chack">By continuing you agree our <a href="/terms">Terms & Conditions</a>
+                      and <a href="/privacy">Privacy Policy.</a></label>
+                  </div>
+                  <div class="input-name">
+                    <button class="button" type="submit"> Search donor </button>
+                  </div>
+                </form>
+              </div>
+           </div> 
         </div>
       </div>
     </section>
