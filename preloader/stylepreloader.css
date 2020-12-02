@@ -46,7 +46,7 @@
 @media screen and (max-width:600px)
 {
     .brain{
-        width: 120%
-        height: 55%;
+        width: 120%;
+        height : 55%;
     }
 }
